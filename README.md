@@ -1,4 +1,4 @@
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Mathmagicians_kumori&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Mathmagicians_kumori)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Mathmagicians_sonar&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Mathmagicians_sonar)
 
 # How to Execute a GitHub Action with Sonarcloud Scanning
 This guide will walk you through the steps to execute a GitHub Action that uses Sonarcloud for scanning your code.
