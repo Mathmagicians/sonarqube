@@ -41,8 +41,10 @@ class Person {
   sayGoodbye() {
     if (true) {
       if (true == 'benny') {
-        console.log("Goodbye!");
-      }
+        if (false) {
+          console.log("Goodbye!");
+        }
+           }
     }
   }
 
