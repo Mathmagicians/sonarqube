@@ -38,6 +38,21 @@ class Person {
     this.occupation = occupation;
   }
 
+  sayGoodbye() {
+    if (true) {
+      if (true == 'benny') {
+        console.log("Goodbye!");
+      }
+    }
+  }
+
+  divide(a, b) {
+    if (b === 0) {
+      throw new Error("Cannot divide by zero");
+    }
+    return a / b;
+  }
+
   sayHello() {
     console.log("Hello, my name is " + this.name + " and I am a " + this.gender + " " + this.occupation + ".");
   }
