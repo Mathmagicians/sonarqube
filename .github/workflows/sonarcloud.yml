@@ -19,4 +19,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Adding markdown
-        run: echo '###ANALYSIS SUCCESSFUL\n\n You can find the results [here](https://sonarcloud.io/dashboard?id=Mathmagicians_kumori&branch=main&resolved=false)' >> $GITHUB_STEP_SUMMARY
+        run: echo "### ANALYSIS SUCCESSFUL\n\nYou can find the results [here](https://sonarcloud.io/dashboard?id=Mathmagicians_kumori&branch=main&resolved=false)" >> $GITHUB_STEP_SUMMARY
