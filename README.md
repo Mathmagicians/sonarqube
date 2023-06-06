@@ -21,3 +21,17 @@ You can find a list of available properties at [docs.sonarqube.org](https://docs
 2. Navigate to the "Actions" tab in your repository and wait for the SonarQube Scan workflow to complete.
 
 You can view the results of the scan in your SonarQube server instance.
+
+## Recommendation
+
+Choosing between Codacy and SonarCloud depends on your specific requirements and preferences. 
+
+If you need a comprehensive code analysis tool with a focus on security vulnerabilities and code smells, SonarCloud is an excellent choice. It provides robust analysis capabilities and integrates well with popular development tools.
+
+It has by far the wides [language support](https://docs.sonarqube.org/9.7/analyzing-source-code/languages/overview/)
+
+If you're looking for a code quality tool that emphasizes code style, formatting, and test coverage, Codacy may be a better fit. It offers a broad range of analysis features and supports multiple programming languages.
+
+### TLDR;
+
+If the focus is on security vulnerabilities and code smells I recommend Sonarqube. Coding style and formatting can to a large degree for many languages be checked and auto fixed during the build process or in the IDE.
